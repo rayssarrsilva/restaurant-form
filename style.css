@@ -26,8 +26,9 @@
 }
 
 #photo {
-  background-image: url(img/backimage.jpg);
-  background-size: cover;       
+  background-image: url(img/macarrao.jpg);
+  background-size: cover;  
+  background-position: center;
   width: 48vw;                   
   height: 100vh; 
 }
