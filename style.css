@@ -26,13 +26,10 @@
 }
 
 #photo {
-  background-image: url(img/backimage.jpg); /* caminho da sua imagem */
-  background-size: cover;       /* faz a imagem preencher toda a área */
-  background-position: center;  /* centraliza a imagem */
-  background-repeat: no-repeat; /* evita repetição */
-  width: 48vw;                   /* metade da tela */
+  background-image: url(img/backimage.jpg);
+  background-size: cover;       
+  width: 48vw;                   
   height: 100vh; 
-  border: none;               /* altura total da janela */
 }
 
 body {
