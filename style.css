@@ -31,10 +31,37 @@
   background-position: center;
   width: 48vw;                   
   height: 100vh; 
+  position: relative;
 }
 
 body {
     margin: 0;
     display: flex;
     gap: 50px;
+    box-sizing: border-box;
+}
+
+#logo img {
+    width: 3vw;
+    height: auto;
+}
+
+#odin {
+    color: white;
+    font-weight: 5;
+    font-size: 13px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 10px;
+    background-color: rgba(7, 7, 7, 0.1); /* preto com 50% transparência */
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    height: 10%;
+    padding: 3px;
 }
