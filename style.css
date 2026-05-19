@@ -114,3 +114,27 @@ h1, h2, h3, h4, label, button, p, input {
   font-family: "Poppins", sans-serif, 'Cinzel', 'Lora', 'Cormorant Garamond', "Playfair Display", "Georgia", "Times New Roman", serif;
   font-weight: 300; /* deixa mais fino */
 }
+
+#right-inputs div, #left-inputs div {
+    padding-bottom: 4px;
+}
+
+#right-inputs, #left-inputs {
+    margin-bottom: 18px;
+}
+
+div label {
+    font-size:1rem;
+}
+
+input::before {
+    border: 2px solid #E5E7EB;
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid green;
+}
