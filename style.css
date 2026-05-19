@@ -93,8 +93,8 @@ body {
     gap: 20px;
 }
 
-.top-form > h3 {
-    width: 65%;
+.top-form h3, .top-form > h1 {
+    width: 80%;
 }
 
 #left-inputs > div, #right-inputs div{
@@ -102,10 +102,15 @@ body {
     flex-direction: column;
 }
 
-form h2, #inputs, .top-form h3, .top-form h4, #bottom-form{
+form h2, .top-form > h1, #inputs, .top-form h3, .top-form h4, #bottom-form{
     padding-left: 40px;
 }
 
 button[type="submit"] {
     margin-top: 15px;
+}
+
+h1, h2, h3, h4, label, button, p, input {
+  font-family: "Poppins", sans-serif, 'Cinzel', 'Lora', 'Cormorant Garamond', "Playfair Display", "Georgia", "Times New Roman", serif;
+  font-weight: 300; /* deixa mais fino */
 }
