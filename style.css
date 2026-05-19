@@ -133,20 +133,20 @@ input {
     border: 2px solid #E5E7EB;
 }
 
-input:user-invalid, 
-input:focus:invalid {
-  border: 2px solid red;
+input:user-invalid {
+  border: 2px solid rgba(194, 36, 36, 0.986);
 }
 
-input:user-valid, 
-input:focus:valid {
-    border: 2px solid green;
-}
 
 /*Selected input*/
 input:focus {
-    border: 2px solid rgba(24, 24, 223, 0.541);
+    outline: none;
+    border: 2px solid var(--green);
     box-shadow: 0 4px 6px -1px rgba (0,0,0,0.1);
+}
+
+input:hover,button:hover {
+    box-shadow: 0 -3px 10px rgba(0,0,0,0.15);
 }
 
 /* button */
