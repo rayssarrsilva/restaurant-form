@@ -80,9 +80,12 @@ body {
 }
 
 #inputs {
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
-    width: 60%;
+    align-items: flex-start;
+    gap: 50px;
+    padding-left: 20px;
 }
 #register {
     display: flex;
@@ -93,4 +96,9 @@ body {
 
 .top-form > h3 {
     width: 65%;
+}
+
+#left-inputs > div, #right-inputs div{
+    display: flex;
+    flex-direction: column;
 }
