@@ -29,7 +29,8 @@
   background-image: url(img/macarrao.jpg);
   background-size: cover;  
   background-position: center;
-  width: 33vw;                   
+  width: 28vw; 
+  min-width: 28vw;                  
   height: 100vh; 
   position: relative;
 }
