@@ -85,7 +85,6 @@ body {
     flex-wrap: wrap;
     align-items: flex-start;
     gap: 50px;
-    padding-left: 20px;
 }
 #register {
     display: flex;
@@ -101,4 +100,12 @@ body {
 #left-inputs > div, #right-inputs div{
     display: flex;
     flex-direction: column;
+}
+
+form h2, #inputs, .top-form h3, .top-form h4, #bottom-form{
+    padding-left: 40px;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
 }
