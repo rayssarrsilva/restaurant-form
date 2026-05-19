@@ -177,5 +177,11 @@ label {
 }
 
 a {
-    font-style: none;
+    text-decoration: none;
 }
+
+input {
+    height: 20px;
+    border-radius: 4px;
+}
+
