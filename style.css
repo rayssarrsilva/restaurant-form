@@ -90,3 +90,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
 }
+
+.top-form > h3 {
+    width: 65%;
+}
