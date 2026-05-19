@@ -123,10 +123,6 @@ h1, h2, h3, h4, label, button, p, input {
     margin-bottom: 18px;
 }
 
-div label {
-    font-size:1rem;
-}
-
 /* inputs validation */
 input {
     width: 104%;
@@ -177,5 +173,5 @@ h1 {
 }
 
 label {
-    font-size: x-small;
+    font-size: 0.7rem;
 }
