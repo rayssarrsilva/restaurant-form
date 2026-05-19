@@ -131,10 +131,10 @@ input {
     border: 2px solid #E5E7EB;
 }
 
-input:user-invalid {
+input:focus:user-invalid {
   border: 2px solid red;
 }
 
-input:invalid {
+input:focus:user-valid {
     border: 2px solid green;
 }

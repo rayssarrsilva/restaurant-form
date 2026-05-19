@@ -41,29 +41,29 @@
                     <div id="left-inputs">
                         <div>
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="FirstName" required>
+                            <input type="text" id="first-name" name="FirstName" pattern="[A-za-zÀ-ÿ\s]{1,} required">
                         </div>
 
                         <div>
                             <label for="email">EMAIL</label>
-                            <input type="email" id="email" name="Email" required>
+                            <input type="email" id="email" name="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                         </div>
 
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="Password" required>
+                            <input type="password" id="password" name="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}.{5,}" required>
                         </div>
                     </div>
 
                     <div id="right-inputs">
                         <div>
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="LastName">
+                            <input type="text" id="last-name" name="LastName" pattern="[A-Za-zÀ-ÿ\s]{2,}" required>
                         </div>
 
                         <div>
                             <label for="Phone">PHONE NUMBER</label>
-                            <input type="tel">
+                            <input type="tel" pattern="((\(?\d{2}\)?[\s-]?)?\d{4,5}[\s-]?\d{4})|((\+1[\s-]?)?(\(?\d{3}\)?[\s-]?)\d{3}[\s-]?\d{4})" required>
                         </div>
 
                         <div>
