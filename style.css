@@ -127,14 +127,42 @@ div label {
     font-size:1rem;
 }
 
+/* inputs validation */
 input {
+    width: 104%;
     border: 2px solid #E5E7EB;
 }
 
-input:focus:user-invalid {
+input:user-invalid, 
+input:focus:invalid {
   border: 2px solid red;
 }
 
-input:focus:user-valid {
+input:user-valid, 
+input:focus:valid {
     border: 2px solid green;
+}
+
+
+/* button */
+:root {
+    --green: #596D48;
+}
+
+button {
+    font-weight: 420;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 6px;
+    border: #596D48;
+    background-color: var(--green);
+}
+
+#bottom-form a {
+    font-weight: 500;
+    color: var(--green);
+}
+
+#bottom-form p {
+    font-weight: 399;
 }
