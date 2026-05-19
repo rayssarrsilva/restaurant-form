@@ -143,6 +143,11 @@ input:focus:valid {
     border: 2px solid green;
 }
 
+/*Selected input*/
+input:focus {
+    border: 2px solid rgba(24, 24, 223, 0.541);
+    box-shadow: 0 4px 6px -1px rgba (0,0,0,0.1);
+}
 
 /* button */
 :root {
@@ -166,3 +171,8 @@ button {
 #bottom-form p {
     font-weight: 399;
 }
+
+h1 {
+    font-weight: 500;
+}
+
