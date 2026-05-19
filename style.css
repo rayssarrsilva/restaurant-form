@@ -175,3 +175,7 @@ h1 {
 label {
     font-size: 0.7rem;
 }
+
+a {
+    font-style: none;
+}
