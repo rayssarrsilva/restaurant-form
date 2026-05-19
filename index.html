@@ -41,34 +41,34 @@
                     <div id="left-inputs">
                         <div>
                             <label for="first-name">FIRST NAME</label>
-                            <input type="text" id="first-name" name="FirstName" pattern="[A-Za-zÀ-ÿ\s]{3,}" required>
+                            <input title="Enter your first name." type="text" id="first-name" name="FirstName" pattern="[A-Za-zÀ-ÿ\s]{3,}" required>
                         </div>
 
                         <div>
                             <label for="email">EMAIL</label>
-                            <input title="ex: nome@dominio.com" type="email" id="email" name="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+                            <input title="Provide a valid email address." type="email" id="email" name="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
                         </div>
 
                         <div>
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password" name="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}" required>
+                            <input title="Create a secure password." type="password" id="password" name="Password" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]).{8,}" required>
                         </div>
                     </div>
 
                     <div id="right-inputs">
                         <div>
                             <label for="last-name">LAST NAME</label>
-                            <input type="text" id="last-name" name="LastName" pattern="[A-Za-zÀ-ÿ\s]{2,}" required>
+                            <input title="Enter your last name." type="text" id="last-name" name="LastName" pattern="[A-Za-zÀ-ÿ\s]{2,}" required>
                         </div>
 
                         <div>
                             <label for="Phone">PHONE NUMBER</label>
-                            <input type="number" pattern="((\(?\d{2}\)?[\s-]?)?\d{4,5}[\s-]?\d{4})|((\+1[\s-]?)?(\(?\d{3}\)?[\s-]?)\d{3}[\s-]?\d{4})" required>
+                            <input title="Enter your phone number, USA (10 digits) or Brazil (11 digits) " type="tel" pattern="\d{10,11}" required>
                         </div>
 
                         <div>
                             <label for="confirm-password">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-password" name="confirmed-password" required>
+                            <input title="Repeat your password to confirm — must match exactly." type="password" id="confirm-password" name="confirmed-password" pattern=".{8,}" required>
                         </div>
                     </div>
 
