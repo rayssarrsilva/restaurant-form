@@ -127,14 +127,14 @@ div label {
     font-size:1rem;
 }
 
-input::before {
+input {
     border: 2px solid #E5E7EB;
 }
 
-input:invalid {
+input:user-invalid {
   border: 2px solid red;
 }
 
-input:valid {
+input:invalid {
     border: 2px solid green;
 }
