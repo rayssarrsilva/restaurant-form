@@ -187,4 +187,6 @@ input {
     border-radius: 4px;
 }
 
-
+#inputs {
+    margin-bottom: 7rem;
+}
